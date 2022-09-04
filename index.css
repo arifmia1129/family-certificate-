@@ -1,0 +1,112 @@
+body {
+    size: 7in 9.25in;
+    margin: 27mm 16mm 27mm 16mm;
+}
+
+
+
+.page {
+    margin: 0 auto;
+    width: 8.27in;
+    height: 13.50in;
+    padding: 5px;
+    border-radius: 4px;
+    border: 2px solid #000000;
+    padding: 5px;
+}
+
+.img-bg {
+    opacity: 0.2;
+    height: 500px;
+    position: absolute;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: 400px auto;
+}
+
+.govt-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.header {
+    margin: 0 auto;
+}
+
+.header-title {
+    line-height: 20%;
+    text-align: center;
+}
+
+.certificate-name {
+    background-color: #000000;
+    color: white;
+    font-size: 30px;
+    padding: 5px 20px;
+    border-radius: 50px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.id-date {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 10px;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    width: 10px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #f0efef;
+}
+
+.chairman {
+    width: 50px;
+    text-align: center;
+    position: relative;
+    bottom: -100px;
+    right: -200px;
+}
+
+.chairman-info {
+    line-height: 20%;
+}
+
+#chairman-name {
+    font-weight: bold;
+}
+
+.certificate-verification {
+    width: 50px;
+    position: relative;
+    bottom: -150px;
+    left: 10px;
+}
+
+.certificate-verification-info {
+    line-height: 20%;
+}
+
+#certificate-verification-name {
+    font-weight: bold;
+    font-size: 20px;
+}
